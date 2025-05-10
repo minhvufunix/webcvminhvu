@@ -1,0 +1,94 @@
+@media (min-width: 320px) and (max-width: 425px) {
+  body {
+    font-size: 14px;
+  }
+
+  .banner {
+    width: 100% !important;
+    height: 1000px !important;
+  }
+
+  .banner-img {
+    height: 1000px !important;
+  }
+
+  .web-document {
+    width: 100%;
+  }
+
+  .web-document > div.web-page {
+    width: 100%;
+    padding: 0;
+  }
+
+  .navbar {
+    justify-content: left !important ;
+  }
+
+  .nav-items {
+    display: block !important;
+    justify-self: flex-start !important;
+  }
+
+  .nav-item {
+    display: block !important;
+    border: none !important;
+    text-align: left !important;
+  }
+
+  #center-item {
+    display: none !important;
+  }
+
+  .thong-tin-ca-nhan {
+    display: block !important;
+  }
+
+  .section-item1,
+  .section-item2 {
+    padding: 1em !important;
+  }
+
+  .thong-tin-nghe-nghiep {
+    margin-top: 10rem !important;
+    display: block !important;
+  }
+
+  .certificate-list {
+    display: block !important;
+    margin-top: 1rem;
+  }
+
+  .certificate-item {
+    width: 18rem !important;
+    height: 9rem !important;
+
+    margin-bottom: 4rem !important;
+    margin-top: 2rem !important;
+    display: block !important;
+    border-bottom: 1px solid orangered !important;
+  }
+
+  .certificate-item img {
+    width: inherit !important;
+    height: inherit !important;
+  }
+
+  #certificate-img {
+    width: 15rem !important;
+    height: 7rem !important;
+  }
+
+  .certificate-info {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .project-list {
+    display: block !important;
+  }
+
+  .project-item {
+    width: auto !important;
+  }
+}
